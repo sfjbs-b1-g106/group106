@@ -1,4 +1,4 @@
-package com.tcs.mini.project;
+package com.harsha.authorization;
 
 public class UsernameAndPasswordAuthenticationRequest {
 

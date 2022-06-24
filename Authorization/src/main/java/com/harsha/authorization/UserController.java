@@ -1,4 +1,4 @@
-package com.tcs.mini.project;
+package com.harsha.authorization;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
