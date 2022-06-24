@@ -65,14 +65,14 @@ POST Method:http://localhost:8085/AllPensioner
 
 Step-1:Open Postman and follow the steps below:
  
-Step-2:Go to Url section and paste---> http://localhost:8080/pension/getAllPensioner
+Step-2:Go to Url section and paste---> http://localhost:8085/getAllPensioner
 
 2.1)To find details of a particular pensioner by Aadhar card number.
 -----------------------------------------------------------------
 
 Step-1:Open Postman and follow the steps below:
 
-Step-2:Go to Url section and paste---> http://localhost:8080/pension/PensionerDetailByAadhaar/420559429029
+Step-2:Go to Url section and paste---> http://localhost:8085/PensionerDetailByAadhaar/420559429029
 
 3.1)To post pensioner details
 ----------------------------------------------
@@ -88,7 +88,13 @@ Main Functionality-->
 
 a)Get all Pensionerdetails.
 
+Get method:http://localhost:8084/getAllPensioner
+
+It wil access the pensiondetails microserver with RestTemplate
+
 b)Get pensionamount calculated
+
+Get Method:localhost:8084/ProcessPension/{addharnum}
 
 
 
