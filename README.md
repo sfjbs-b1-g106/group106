@@ -47,7 +47,7 @@ Step-2:Go to Url section and paste---> http://localhost:8080/logon
 
 Method:POST
 
-Step-3: Body Section: { "user":"abhiram", "password":"aby" }
+Step-3: Body Section: { "user":"group106", "password":"group106pass" }
 
 Step-4: Click Send button, then a token will be generated. Copy the token.
 
