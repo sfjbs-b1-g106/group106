@@ -47,37 +47,50 @@ B)Pensioner detail Microservice:
 
 Main Functionality-->
 
-a)Used to find all the pensioner details
+1)Used to find all the pensioner details
 
-GET Method: Go to Url section and paste---> http://localhost:8080/pension/alldetails
+GET Method:http://localhost:8085/AllPensioner
 
-b)Used to find details of a particular pensioner by Aadhar card number. 
+2)Used to find details of a particular pensioner by Aadhar card number. 
 
-GET Method: Go to Url section and paste---> http://localhost:8080/pension/87938340489
+GET Method:http://localhost:8085/PensionerDetailByAadhaar/{aadharNumber}
+
+3)Used to post details of a pensioner.
+
+POST Method:http://localhost:8085/AllPensioner
 
 
-a)To find all the pensioner details.
+1.1)To find all the pensioner details.
 ------------------------------------
 
 Step-1:Open Postman and follow the steps below:
  
 Step-2:Go to Url section and paste---> http://localhost:8080/pension/getAllPensioner
 
-b)To find details of a particular pensioner by Aadhar card number.
+2.1)To find details of a particular pensioner by Aadhar card number.
 -----------------------------------------------------------------
 
 Step-1:Open Postman and follow the steps below:
 
 Step-2:Go to Url section and paste---> http://localhost:8080/pension/PensionerDetailByAadhaar/420559429029
 
+3.1)To post pensioner details
+----------------------------------------------
+
+Step-1:Open Postman and follow the steps below
+
+POST Method:http://localhost:8085/AllPensioner
+
 C)Process Pension Microservice:
 -------------------------------
 
 Main Functionality-->
 
-a)Calculate Pension.
+a)Get all Pensionerdetails.
 
-Steps: Will later
+b)Get pensionamount calculated
+
+
 
 Pension amount calculation detail is as follows
 ------------------------------------------------
@@ -94,7 +107,5 @@ o The Pensioner detailmicroservice has the bank detail. Process pension microser
 
 Self note-> meka manikanta
 ---------
-Created two table
-Names
-bank_persion_details
-pension_persondata
+Created pensionerdata db and pensioner table
+
