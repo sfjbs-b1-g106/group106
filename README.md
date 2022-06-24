@@ -39,8 +39,21 @@ Functionalities
 
 A)Authorization Microservice:
 -----------------------------
+Main Functionality:To Generate the token and Validate the token.
 
-Will add later
+Step-1:Open Postman and follow the steps below:
+
+Step-2:Go to Url section and paste---> http://localhost:8080/logon
+
+Method:POST
+
+Step-3: Body Section: { "user":"abhiram", "password":"aby" }
+
+Step-4: Click Send button, then a token will be generated. Copy the token.
+
+Step-5:And see the details of token in jwt.io
+
+Note: We are not able to link two microservice with the project as of now
 
 B)Pensioner detail Microservice:
 --------------------------------
